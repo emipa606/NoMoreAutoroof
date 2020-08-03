@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>NoMoreAutoroof (Continued)</name>
-  	<packageId>Mlie.NoMoreAutoroof</packageId>
-	<author>Mlie</author>
-	<url>https://github.com/emipa606/NoMoreAutoroof</url>
-	<supportedVersions>
-		<li>1.0</li>
-		<li>1.1</li>
-	</supportedVersions>
-	<modDependencies />
-	<loadAfter />
-	<description>Update of Honey Badgers mod for RimWorld 1.1
+  <name>NoMoreAutoroof (Continued)</name>
+  <packageId>Mlie.NoMoreAutoroof</packageId>
+  <author>fed1</author>
+  <url>https://github.com/emipa606/NoMoreAutoroof</url>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <modDependencies />
+  <loadAfter />
+  <description>Update of fed1s mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1896930608
 
 Support-chat:
@@ -22,6 +23,6 @@ https://github.com/emipa606/NoMoreAutoroof
 --- Original Description ---
 Pawns now ignore annoying automatic roof building upon completion of the room perimeter.
 
-Игра лучше тебя знает, что вот именно в этой комнате нужна крыша??
-Хватит это тепрпеть! Больше никаких автокрыш!</description>
+???? ????? ???? ?????, ??? ??? ?????? ? ???? ??????? ????? ???????
+?????? ??? ????????! ?????? ??????? ????????!</description>
 </ModMetaData>
