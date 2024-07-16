@@ -9,6 +9,6 @@ internal class AutoBuildRoofAreaSetter_AutoBuildRoofAreaSetterTick_First
     [HarmonyPrefix]
     private static bool TryGenerateAreaNow_Fix()
     {
-        return false;
+        return NoMoreAutoroofMod.instance.Settings.BuildRoof;
     }
 }

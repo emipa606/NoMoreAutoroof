@@ -1,5 +1,9 @@
 # Changelog for NoMoreAutoroof
 
+1.5.1 - Added gui-setting to change auto-building roof
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 
