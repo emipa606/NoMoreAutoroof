@@ -8,7 +8,7 @@ internal class NoMoreAutoroofMod : Mod
     /// <summary>
     ///     The instance of the settings to be read by the mod
     /// </summary>
-    public static NoMoreAutoroofMod instance;
+    public static NoMoreAutoroofMod Instance;
 
 
     /// <summary>
@@ -17,7 +17,7 @@ internal class NoMoreAutoroofMod : Mod
     /// <param name="content"></param>
     public NoMoreAutoroofMod(ModContentPack content) : base(content)
     {
-        instance = this;
+        Instance = this;
         Settings = GetSettings<NoMoreAutoroofSettings>();
     }
 

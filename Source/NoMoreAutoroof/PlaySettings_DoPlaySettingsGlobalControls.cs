@@ -14,7 +14,7 @@ internal class PlaySettings_DoPlaySettingsGlobalControls
             return;
         }
 
-        var toggleable = NoMoreAutoroofMod.instance.Settings.BuildRoof;
+        var toggleable = NoMoreAutoroofMod.Instance.Settings.BuildRoof;
         var buttonAutoDesignatePlantsCutMode = NoMoreAutoroof.ButtonNoAutoRoof;
         string text = toggleable
             ? "NoMoreAutoroof.ModeON".Translate()
@@ -22,6 +22,6 @@ internal class PlaySettings_DoPlaySettingsGlobalControls
         string tooltip = "NoMoreAutoroof.NoMoreAutoroof".Translate(text);
         row.ToggleableIcon(ref toggleable, buttonAutoDesignatePlantsCutMode, tooltip,
             SoundDefOf.Mouseover_ButtonToggle);
-        NoMoreAutoroofMod.instance.Settings.BuildRoof = toggleable;
+        NoMoreAutoroofMod.Instance.Settings.BuildRoof = toggleable;
     }
 }
