@@ -5,9 +5,9 @@ using Verse;
 namespace NoMoreAutoroof;
 
 [HarmonyPatch(typeof(PlaySettings), nameof(PlaySettings.DoPlaySettingsGlobalControls))]
-internal class PlaySettings_DoPlaySettingsGlobalControls
+internal static class PlaySettings_DoPlaySettingsGlobalControls
 {
-    private static void Prefix(WidgetRow row, bool worldView)
+    public static void Prefix(WidgetRow row, bool worldView)
     {
         if (worldView)
         {
